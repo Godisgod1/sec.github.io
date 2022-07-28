@@ -1,0 +1,31 @@
+#green{
+    width: 1395px;
+}
+
+#yell{
+    width: 1395px;
+}
+
+#blue{
+    width: 1395px;
+}
+
+#bottom{
+    width: 1395px;
+}
+
+#menuu{
+    width: 1395px;
+}
+
+#bottom1{
+    width: 1395px;
+}
+
+#footer{
+    width: 1395px;
+}
+
+header::before {
+    width: 1395px;
+}

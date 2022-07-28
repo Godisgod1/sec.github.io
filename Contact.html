@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainstyle.css">
+
+    <style>
+
+        header::before {
+            content: "";
+            background: #E63945;
+            position: absolute;
+            height: 65vh;
+            width: 98.5vw;
+            z-index: -1;
+        }
+
+        #menupagetop{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 80px;
+            font-family: sans-serif;
+        }
+
+        #menupagetop h3{
+            font-size: 26px;
+            color: white;
+        }
+
+        #menupagetop h1{
+            font-size: 125px;
+            color: white;
+            padding-bottom: 110px;
+        }
+
+        #menuu{
+            display: flex;
+            text-align: left;
+            justify-content: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        #m2 h5{
+            color: #3b3b3b;
+        }
+
+        #m2 h6:hover{
+            cursor: pointer;
+            color: #E63945;
+        }
+
+        #csect1{
+            background: white;
+            margin-top: 88px;
+        }
+
+        #formsect{
+            display: flex;
+            justify-content: center;
+        }
+
+        #form{
+            display: flex;
+            flex-direction: column;
+            padding-left: 120px;
+        }
+
+        #form label{
+            font-size: 17px;
+            color: #758398;
+            font-weight: 800;
+        }
+
+        #name input{
+            font-size: 22px;
+            padding: 12.75px;
+            height: 55px;
+        }
+
+        #email input{
+            width: 570px;
+            font-size: 22px;
+            padding: 12.75px;
+            height: 55px;
+        }
+
+        textarea{
+            width: 570px;
+            height: 120px;
+            font-size: 22px;
+            padding: 12.75px;
+        }
+
+        span{
+            color: red;
+        }
+
+        #btn1{
+            background: #009bdf;
+            height: 35px;
+            width: 100px;
+            color: white;
+            border-radius: 15px;
+            border: 2px solid #009bdf;
+        }
+
+    </style>
+    
+    <title>OUR MENU</title>
+</head>
+<body id="Contact1">
+
+
+    <header id="topred">
+        <nav id="nave">
+            <div id="logo">
+                <h1>Bugeria</h1>
+            </div>
+            <ul>
+                <li><a href="Burgeria.html" class="link1">HOME</a></li>
+                <li><a href="Menu.html" class="link2">OUR MENU</a></li>
+                <li><a href="Offers.html" class="link3">OFFERS</a></li>
+                <li><a href="About.html" class="link4">ABOUT</a></li>
+                <li><a href="Franchisee.html" class="link5">FRANCHISEE</a></li>
+                <li><a href="Contact.html" class="link6">CONTACT</a></li>
+            </ul>
+            <div id="btnd">
+                <button type="button" class="btn btn-light" id="btn">Downoload App</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="menupagetop">
+        <h3>Get in touch</h3>
+        <h1>Contact</h1>
+    </section>
+
+
+    <section id="menuu">
+        <div id="m2" class="ques1">
+            <h1>Contact info</h1>
+            <h6><img src="images/call.png"> 929-242-6868</h6>
+            <h6><img src="images/mail.png"> contact@info.com</h6>
+            <h6><img src="images/loca.png"> 66 Ceres St San Francisco, California(CA), 94124</h6>
+            <img src="images/line.png" style="height: 45px;width: 80px;">
+            <h3>Opening hours</h3>
+            <h5>Monday - Friday — 8:00 - 22:00</h5>
+            <h5>Saturday - Sunday — 10:00 - 23:00</h5>
+        </div>
+        <div>
+            <section id="csect1">
+                <div id="formsect">
+                    <div id="form">
+                        <label style="padding-bottom:10px">Name <span>*</span></label>
+                        <div id="name">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label style="font-size: 14px;font-weight: normal;">First</label>
+                            <label style="font-size: 14px;font-weight: normal;padding-left: 282px;">Last</label>
+                        </div>
+                        <label style="padding-bottom:10px">Email <span>*</span></label>
+                        <div id="email" style="padding-bottom: 30px;">
+                            <input type="email">
+                        </div>
+                        <label style="padding-bottom:10px">Message <span>*</span></label>
+                        <div style="padding-bottom: 35px;">
+                            <textarea cols="30" rows="10" style="font-size: 20px;line-height: 21px;"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-info" id="btn1">SUBMIT</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="blue">
+        <h1 style="color: white;font-size: 16px;padding-top: 100px;">OUR OUTLETS</h1>
+        <h1 style="color: black;font-size: 55px;margin-bottom: 20px;">Find an Outlet Near You</h1>
+        <div class="vl"></div>
+        <div id="outimg">
+            <img src="images/out1.jpg">
+            <img src="images/out2.jpg" id="l12">
+            <img src="images/out3.jpg">
+        </div>
+        <div id="tra3">
+            <div>
+                <img src="images/icon.png" height="40px" width="40px" style="margin-bottom: 15px;">
+                <p>762 Fulton St San Francisco,</p>
+                <p> California(CA), 94102</p>
+                <h5>(415) 834-5089</h5>
+            </div>
+            <div>
+                <img src="images/icon.png" height="40px" width="40px" style="margin-bottom: 15px;">
+                <p class="l3">66 Ceres St San Francisco,</p>
+                <p> California(CA), 94124</p>
+                <h5>(415) 931-1698</h5>
+            </div>
+            <div>
+                <img src="images/icon.png" height="40px" width="40px" style="margin-bottom: 15px;">
+                <p>766 Sutter St San Francisco,</p>
+                <p> California(CA), 94109</p>
+                <h5>(415) 647-1210</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------BLACK SECTION--------------------BOTTOM1 MOBILE----------------------------------- -->
+    <section id="bottom1">
+        <div id="app">
+            <div id="advtext">
+                <h1 style="padding-bottom: 20px;font-size: 55px;">Burgeria</h1>
+                <h1>Get 20% Discount</h1>
+                <p>Get flat 20% off on your first order through <br> Burgeria App!</p>
+                <div id="playbut" style="margin-top: 15px;">
+                    <a href=""><img src="images/app store.png"></a>
+                    <a href=""><img src="images/playstore.png"></a>
+                </div>
+            </div>
+                <img src="images/appscreen.png" style="padding-left: 100px;padding-top: 90px;">
+        </div>
+    </section>
+
+
+    <!-- --------------------FOOTER------------------------------FOOTER WHITE------------------------------------  -->
+    <section id="footer">
+        <nav id="nave">
+            <div id="footnave">
+                <ul>
+                    <li><a href="Burgeria.html">HOME</a></li>
+                    <li><a href="Menu.html">OUR MENU</a></li>
+                    <li><a href="Offers.html">OFFERS</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Franchisee.html">FRANCHISEE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+                <div id="logos1">
+                    <div id="ex3">
+                        <img src="images/facebook.png" style="margin-top: 11px;" height="28px" width="28px">
+                    </div>
+                    <div id="ex3" class="logospace1">
+                        <img src="images/twitter.png" style="margin-top: 11px;" height="28px" width="28px">
+                    </div>
+                    <div id="ex3">
+                        <img src="images/instagram.png" style="margin-top: 11px;" height="28px" width="28px">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <div id="copyr">
+            <h6>Copyright © 2022 Burgeria</h6>
+            <a href="#blue"><h6>View Outlets Near You</h6></a>
+        </div>
+    </section>
+
+
+</body>
+</html>
